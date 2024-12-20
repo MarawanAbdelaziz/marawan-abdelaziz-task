@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="89" height="89.641" viewBox="0 0 89 89.641">
+  <g id="Group_1246" data-name="Group 1246" transform="translate(-346 -351)">
+    <path id="Path_1851" data-name="Path 1851" d="M44.5,0A44.5,44.5,0,1,1,0,44.5,44.5,44.5,0,0,1,44.5,0Z" transform="translate(346 351)" fill="#fff"/>
+    <path id="Icon_awesome-user-alt" data-name="Icon awesome-user-alt" d="M16.177,18.2a9.1,9.1,0,1,0-9.1-9.1A9.1,9.1,0,0,0,16.177,18.2Zm8.088,2.022H20.784a11,11,0,0,1-9.213,0H8.088A8.088,8.088,0,0,0,0,28.31v1.011a3.034,3.034,0,0,0,3.033,3.033H29.321a3.034,3.034,0,0,0,3.033-3.033V28.31A8.088,8.088,0,0,0,24.265,20.221Z" transform="translate(373.857 378.857)" fill="#dfdfdf"/>
+    <path id="Path_19" data-name="Path 19" d="M1773.633,175.282h82.6s-11.7,25.731-41.235,25.6a45.938,45.938,0,0,1-27.157-8.419A45.431,45.431,0,0,1,1773.633,175.282Z" transform="translate(-1424.379 239.755)" fill="#232323" opacity="0.51"/>
+    <g id="Icon_feather-camera" data-name="Icon feather-camera" transform="translate(382.54 421.275)">
+      <path id="Path_17" data-name="Path 17" d="M16.164,15.165A1.333,1.333,0,0,1,14.831,16.5h-12A1.333,1.333,0,0,1,1.5,15.165V7.833A1.333,1.333,0,0,1,2.833,6.5H5.5l1.333-2h4l1.333,2h2.666a1.333,1.333,0,0,1,1.333,1.333Z" transform="translate(-1.5 -4.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+      <path id="Path_18" data-name="Path 18" d="M17.332,16.166A2.666,2.666,0,1,1,14.666,13.5,2.666,2.666,0,0,1,17.332,16.166Z" transform="translate(-7.334 -9.501)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    </g>
+  </g>
+</svg>

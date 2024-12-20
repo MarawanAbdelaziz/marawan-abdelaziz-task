@@ -1,0 +1,8 @@
+<svg id="Group_1199" data-name="Group 1199" xmlns="http://www.w3.org/2000/svg" width="122" height="122" viewBox="0 0 122 122">
+  <rect id="Rectangle_1819" data-name="Rectangle 1819" width="122" height="122" fill="#8e8e8e"/>
+  <g id="Icon_feather-camera" data-name="Icon feather-camera" transform="translate(52 48.319)">
+    <path id="Path_17" data-name="Path 17" d="M18.5,16.864a1.546,1.546,0,0,1-1.546,1.546H3.046A1.546,1.546,0,0,1,1.5,16.864v-8.5A1.546,1.546,0,0,1,3.046,6.818H6.137L7.682,4.5h4.637l1.546,2.318h3.091A1.546,1.546,0,0,1,18.5,8.364Z" transform="translate(-1.5 -4.5)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+    <path id="Path_18" data-name="Path 18" d="M18.182,16.591A3.091,3.091,0,1,1,15.091,13.5,3.091,3.091,0,0,1,18.182,16.591Z" transform="translate(-6.591 -8.863)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1"/>
+  </g>
+  <text id="ألتقط_صورة" data-name="ألتقط صورة" transform="translate(61 78)" fill="#fff" font-size="10" font-family="Cairo-SemiBold, Cairo" font-weight="600"><tspan x="-24.825" y="0">ألتقط صورة</tspan></text>
+</svg>

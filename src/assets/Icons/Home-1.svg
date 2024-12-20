@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="13.265" height="12.831" viewBox="0 0 13.265 12.831">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="13.265" height="12.831" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Home" clip-path="url(#clip-path)">
+    <path id="Home-2" data-name="Home" d="M86.2,82.467l-5.987-5.247a.44.44,0,0,0-.58,0L73.65,82.467a.44.44,0,0,0,.58.662l.464-.406V89.27a.44.44,0,0,0,.44.44H84.72a.44.44,0,0,0,.44-.44V82.723l.464.406a.44.44,0,0,0,.58-.662ZM78.91,88.83V85.2h2.033V88.83H78.91Zm5.369-6.875V88.83H81.824V84.763a.44.44,0,0,0-.44-.44H78.47a.44.44,0,0,0-.44.44V88.83H75.574V81.954s0,0,0,0l4.353-3.815,4.353,3.815S84.279,81.953,84.279,81.954Z" transform="translate(-73.355 -76.98)" fill="#fff" stroke="#fff" stroke-width="0.2"/>
+  </g>
+</svg>

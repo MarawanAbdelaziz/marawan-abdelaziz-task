@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="161" height="90" viewBox="0 0 161 90">
+  <defs>
+    <filter id="bg" x="0" y="0" width="161" height="90" filterUnits="userSpaceOnUse">
+      <feOffset dy="12" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feFlood flood-color="#455b63" flood-opacity="0.102"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect width="24" height="24" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="button_fab_gps_filters" data-name="button/fab/gps+filters" transform="translate(24 12)">
+    <g id="button_fab_gps" data-name="button/fab/gps">
+      <g transform="matrix(1, 0, 0, 1, -24, -12)" filter="url(#bg)">
+        <rect id="bg-2" data-name="bg" width="113" height="42" rx="2" transform="translate(24 12)" fill="#fff"/>
+      </g>
+      <g id="icons_gps" data-name="icons/gps" transform="translate(32 9)" clip-path="url(#clip-path)">
+        <rect id="bg-3" data-name="bg" width="24" height="24" fill="none"/>
+        <path id="path" d="M18.782,12.318a7.308,7.308,0,0,1-6.464,6.464v.9a.818.818,0,1,1-1.636,0v-.9a7.159,7.159,0,0,1-6.464-6.464h-.9a.818.818,0,1,1,0-1.636h.9a7.159,7.159,0,0,1,6.464-6.464v-.9a.818.818,0,1,1,1.636,0v.9a7.308,7.308,0,0,1,6.464,6.464h.9a.818.818,0,1,1,0,1.636ZM11.5,17.227A5.727,5.727,0,1,0,5.773,11.5,5.692,5.692,0,0,0,11.5,17.227Zm0-2.455A3.273,3.273,0,1,1,14.773,11.5,3.282,3.282,0,0,1,11.5,14.773Zm0-1.636A1.636,1.636,0,1,0,9.864,11.5,1.641,1.641,0,0,0,11.5,13.136Z" transform="translate(0.5 0.5)" fill="#454f63"/>
+      </g>
+    </g>
+  </g>
+</svg>
