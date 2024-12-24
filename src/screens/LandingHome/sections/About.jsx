@@ -18,11 +18,11 @@ const About = () => {
           <img
             className="ml-20 laptop:ml-auto 2xl:w-[600px] laptop:w-10/12"
             src={engineers}
-            alt=""
+            alt="engineers"
           />
         </div>
 
-        <div dir="rtl" className="w-[50%] lg:w-[30%] mx-auto md:mr-0 xl:mr-10 2xl:mr-36 laptop:mr-40">
+        <div dir="rtl" className="w-[50%] lg:w-[30%] mx-auto md:mr-0 xl:mr-10 2xl:mr-36 laptop:mr-40 mt-10">
           <div className="w-full pl-14">
             <img className="w-[55%]  md:mr-0 xl:mr-auto" src={logoBlack} alt="logo black" />
           </div>
