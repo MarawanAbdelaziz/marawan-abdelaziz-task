@@ -1,10 +1,9 @@
+import { useEffect, useState } from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-
 import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
-
 import { EffectCoverflow, Navigation, Pagination } from "swiper/modules";
 
 import p1 from "../../../../assets/image/p1.png";
@@ -12,11 +11,71 @@ import p2 from "../../../../assets/image/p2.png";
 import p3 from "../../../../assets/image/p3.png";
 import arrowL from "../../../../assets/Icons/arrowL.svg";
 import arrowR from "../../../../assets/Icons/arrowR.svg";
-
 import star from "../../../../assets/Icons/Icon awesome-star.svg";
 import star1 from "../../../../assets/Icons/Icon awesome-star-1.svg";
 
 const Customers = () => {
+  const [coverflowSettings, setCoverflowSettings] = useState({
+    rotate: 0,
+    stretch: 14,
+    depth: 5,
+    modifier: 100,
+  });
+
+  useEffect(() => {
+    const updateCoverflowSettings = () => {
+      const width = window.innerWidth;
+
+      if (width >= 1537) {
+        // min-width: 1537px (Laptop and larger)
+        setCoverflowSettings({
+          rotate: 0,
+          stretch: 14,
+          depth: 5,
+          modifier: 101,
+        });
+      } else if (width >= 1436) {
+        // min-width: 1536px (2xl)
+        setCoverflowSettings({
+          rotate: 0,
+          stretch: 10.6,
+          depth: 5,
+          modifier: 100,
+        });
+      } else if (width >= 1122) {
+        // min-width: 1122px (xl)
+        setCoverflowSettings({
+          rotate: 0,
+          stretch: 8,
+          depth: 5,
+          modifier: 100,
+        });
+      } else if (width >= 1024) {
+        // min-width: 1024px (lg)
+        setCoverflowSettings({
+          rotate: 0,
+          stretch: 10,
+          depth: 5,
+          modifier: 90,
+        });
+      } else if (width >= 768) {
+        // min-width: 768px (md)
+        setCoverflowSettings({ rotate: 0, stretch: 5, depth: 5, modifier: 80 });
+      } else {
+        // For widths less than 768px
+        setCoverflowSettings({ rotate: 0, stretch: 5, depth: 5, modifier: 80 });
+      }
+    };
+
+    updateCoverflowSettings();
+    window.addEventListener("resize", updateCoverflowSettings);
+    return () => {
+      window.removeEventListener("resize", updateCoverflowSettings);
+    };
+  }, []);
+
+  console.log("coverflowSettings: ", coverflowSettings);
+
   return (
     <section id="customers" className="h-screen w-[90%] mx-auto">
       <div className="pt-20">
@@ -29,12 +88,13 @@ const Customers = () => {
       </div>
 
       <Swiper
+        key={JSON.stringify(coverflowSettings)}
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
-        loop={false}
+        loop={true}
         slidesPerView={"auto"}
-        coverflowEffect={{ rotate: 0, stretch: 14, depth: 5, modifier: 100 }}
+        coverflowEffect={coverflowSettings}
         pagination={{ el: ".swiper-pagination", clickable: true }}
         navigation={{
           nextEl: ".swiper-button-next",
@@ -118,10 +178,10 @@ const Customers = () => {
         </SwiperSlide>
 
         <div className="slider-controler">
-          <div className="!left-5 swiper-button-prev slider-arrow">
+          <div className="swiper-button-prev slider-arrow">
             <img src={arrowL} />
           </div>
-          <div className="!left-[98.5%]  swiper-button-next slider-arrow ">
+          <div className="swiper-button-next slider-arrow ">
             <img src={arrowR} />
           </div>
         </div>
