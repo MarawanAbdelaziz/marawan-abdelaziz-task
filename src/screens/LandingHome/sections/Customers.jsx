@@ -92,7 +92,7 @@ const Customers = () => {
         effect={"coverflow"}
         grabCursor={true}
         centeredSlides={true}
-        loop={true}
+        loop={false}
         slidesPerView={"auto"}
         coverflowEffect={coverflowSettings}
         pagination={{ el: ".swiper-pagination", clickable: true }}

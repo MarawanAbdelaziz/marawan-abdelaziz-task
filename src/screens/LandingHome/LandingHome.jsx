@@ -8,7 +8,7 @@ import Header from "../../components/Header";
 import Navbar from "../../components/Navbar";
 import About from "./sections/About";
 import Services from "./sections/Services";
-import Customers from "./sections/customers/Customers";
+import Customers from "./sections/Customers";
 import ContactUs from "./sections/ContactUs";
 
 const LandingHome = () => {
