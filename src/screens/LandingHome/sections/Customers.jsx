@@ -6,13 +6,13 @@ import "swiper/css/pagination";
 import "swiper/css/navigation";
 import { EffectCoverflow, Navigation, Pagination } from "swiper/modules";
 
-import p1 from "../../../../assets/image/p1.png";
-import p2 from "../../../../assets/image/p2.png";
-import p3 from "../../../../assets/image/p3.png";
-import arrowL from "../../../../assets/Icons/arrowL.svg";
-import arrowR from "../../../../assets/Icons/arrowR.svg";
-import star from "../../../../assets/Icons/Icon awesome-star.svg";
-import star1 from "../../../../assets/Icons/Icon awesome-star-1.svg";
+import p1 from "../../../assets/image/p1.png";
+import p2 from "../../../assets/image/p2.png";
+import p3 from "../../../assets/image/p3.png";
+import arrowL from "../../../assets/Icons/arrowL.svg";
+import arrowR from "../../../assets/Icons/arrowR.svg";
+import star from "../../../assets/Icons/Icon awesome-star.svg";
+import star1 from "../../../assets/Icons/Icon awesome-star-1.svg";
 
 const Customers = () => {
   const [coverflowSettings, setCoverflowSettings] = useState({
